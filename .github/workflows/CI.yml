@@ -49,7 +49,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: './download.html'
+          source_file: 'outputs/*'
           destination_repo: 'pzcn/emuiicons'
           destination_folder: 'outputs/*'
           destination_branch: 'main'
