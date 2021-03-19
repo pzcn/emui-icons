@@ -23,5 +23,5 @@ for dir in ${DIR};do
 done
 cd ..
 cd outputs
-apt-get install util-linux -y
+sudo apt-get install util-linux -y
 rename 's/\.zip/.hwt/'    *.zip
