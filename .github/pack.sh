@@ -16,11 +16,8 @@ for dir in ${DIR};do
 		mv icons.zip icons
 		zip -r ${dir}.zip * >/dev/null
 		cd .. 
-		cp -rf themes/${dir}.zip outputs/${dir}.zip
+		cp -rf themes/${dir}.zip outputs/${dir}.hwt
 		cd themes
 	fi
 done
 cd ..
-cd outputs
-sudo apt-get install rename
-rename 's/\.zip/.hwt/'    *.zip
