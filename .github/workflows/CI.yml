@@ -38,10 +38,10 @@ jobs:
 
       - name: Pack
         run: |
-          mkdir outputs/CI/
-          mv ./outputs/* ./outputs/CI/
-          mv download.html ./outputs/index.html
-          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./outputs/download.html
+          mkdir temp/CI
+          mv ./outputs/* ./temp/CI
+          mv download.html ./temp/index.html
+          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./temp/index.html
 
 
       - name: Pushes files
@@ -51,7 +51,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: 'outputs/*'
+          source_file: 'temp/*'
           destination_repo: 'pzcn/emuiicons'
           destination_folder: ''
           destination_branch: 'main'
