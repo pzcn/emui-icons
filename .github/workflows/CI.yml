@@ -35,3 +35,21 @@ jobs:
           tag_name: ${{steps.tag_version.outputs.new_tag}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pack
+        run: |
+          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./download.html`
+
+      - name: Pushes files
+        uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
+        if: |
+          contains(github.event.head_commit.message, 'skip') == false 
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_file: './download.html'
+          destination_repo: 'pzcn/emuiicons'
+          destination_folder: './'
+          destination_branch: 'main'
+          user_email: 'pdzzzcn@gmail.com'
+          user_name: 'pzcn'
