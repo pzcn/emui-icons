@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir outputs
 cd themes
 DIR=`ls .`
 for dir in ${DIR};do
@@ -16,11 +17,11 @@ for dir in ${DIR};do
 		cd ..
 		zip -r ${dir}.zip ${dir}/* >/dev/null
 		cd .. 
-		mkdir outputs
 		cp -rf themes/${dir}.zip outputs/${dir}.zip
 		cd themes
 	fi
 done
 cd ..
 cd outputs
+apt-get install util-linux -y
 rename 's/\.zip/.hwt/'    *.zip
