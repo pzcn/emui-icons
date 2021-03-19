@@ -38,7 +38,8 @@ jobs:
 
       - name: Pack
         run: |
-          mv download.html ./outputs/download.html
+          mv ./outputs/* ./outputs/CI/
+          mv download.html ./outputs/index.html
           sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./outputs/download.html
 
 
@@ -51,7 +52,7 @@ jobs:
         with:
           source_file: 'outputs/*'
           destination_repo: 'pzcn/emuiicons'
-          destination_folder: 'outputs/*'
+          destination_folder: ''
           destination_branch: 'main'
           user_email: 'pdzzzcn@gmail.com'
           user_name: 'pzcn'
