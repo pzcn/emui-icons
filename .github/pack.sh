@@ -15,7 +15,7 @@ for dir in ${DIR};do
 		rm -rf tmp
 		mv icons.zip icons
 		zip -r ${dir}.zip * >/dev/null
-		cd .. 
+		cd ../.. 
 		cp -rf themes/${dir}.zip outputs/${dir}.hwt
 		cd themes
 	fi
