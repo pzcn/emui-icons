@@ -38,6 +38,7 @@ jobs:
 
       - name: Pack
         run: |
+          mkdir outputs/CI/
           mv ./outputs/* ./outputs/CI/
           mv download.html ./outputs/index.html
           sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./outputs/download.html
