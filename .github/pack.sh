@@ -21,3 +21,6 @@ for dir in ${DIR};do
 		cd themes
 	fi
 done
+cd ..
+cd outputs
+rename 's/.zip/.hwt/'  ./*
