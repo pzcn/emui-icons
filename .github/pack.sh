@@ -1,5 +1,6 @@
 #!/bin/bash
 mkdir outputs
+mkdir -r tmpci/ci
 cd themes
 DIR=`ls .`
 for dir in ${DIR};do

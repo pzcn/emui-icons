@@ -21,24 +21,8 @@ jobs:
           chmod 755 ./.github/pack.sh
           ./.github/pack.sh
 
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v5.1
-        with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
-
-      - name: Upload Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: 'outputs/*'
-          name: ${{steps.tag_version.outputs.new_tag}}
-          tag_name: ${{steps.tag_version.outputs.new_tag}}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Pack
         run: |
-          mkdir ./tmpci/ci
           mv ./outputs/* ./tmpci/ci
           mv download.html ./tmpci/index.html
           sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./tmpci/index.html
@@ -57,3 +41,18 @@ jobs:
           destination_branch: 'main'
           user_email: 'pdzzzcn@gmail.com'
           user_name: 'pzcn'
+
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v5.1
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Upload Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: 'outputs/*'
+          name: ${{steps.tag_version.outputs.new_tag}}
+          tag_name: ${{steps.tag_version.outputs.new_tag}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
