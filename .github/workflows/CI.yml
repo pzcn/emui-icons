@@ -38,7 +38,7 @@ jobs:
 
       - name: Pack
         run: |
-          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./download.html`
+          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./download.html
 
       - name: Pushes files
         uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
