@@ -23,4 +23,4 @@ for dir in ${DIR};do
 done
 cd ..
 cd outputs
-rename 's/.zip/.hwt/'  ./*
+rename 's/\.zip/.hwt/'    *.zip
