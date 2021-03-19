@@ -38,7 +38,8 @@ jobs:
 
       - name: Pack
         run: |
-          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./download.html
+          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./outputs/download.html
+          
 
       - name: Pushes files
         uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
@@ -49,7 +50,7 @@ jobs:
         with:
           source_file: './download.html'
           destination_repo: 'pzcn/emuiicons'
-          destination_folder: './'
+          destination_folder: 'outputs/*'
           destination_branch: 'main'
           user_email: 'pdzzzcn@gmail.com'
           user_name: 'pzcn'
