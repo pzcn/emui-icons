@@ -38,7 +38,7 @@ jobs:
 
       - name: Pack
         run: |
-          mkdir -r temp/CI
+          mkdir -rf temp/CI
           mv ./outputs/* ./temp/CI
           mv download.html ./temp/index.html
           sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./temp/index.html
