@@ -14,8 +14,7 @@ for dir in ${DIR};do
 		zip -r icons.zip tmp/* >/dev/null
 		rm -rf tmp
 		mv icons.zip icons
-		cd ..
-		zip -r ${dir}.zip ${dir}/* >/dev/null
+		zip -r ${dir}.zip * >/dev/null
 		cd .. 
 		cp -rf themes/${dir}.zip outputs/${dir}.zip
 		cd themes
@@ -23,5 +22,5 @@ for dir in ${DIR};do
 done
 cd ..
 cd outputs
-sudo apt-get install util-linux -y
+sudo apt-get install rename
 rename 's/\.zip/.hwt/'    *.zip
