@@ -16,6 +16,15 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
+      - name: Get Count
+        run: |
+          cd icons
+          echo count=$(ls -l |grep "^d"|wc -l) >> $GITHUB_ENV
+          cd ..
+
+      - name: Get Date Env
+        run: echo date=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d') >> $GITHUB_ENV
       - name: Pack
         run: |
           chmod 755 ./.github/pack.sh
@@ -35,23 +44,18 @@ jobs:
           tag_name: ${{steps.tag_version.outputs.new_tag}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Pack
+
+      - name: html
         run: |
-          cp -rf ./outputs/* ./tmpci/ci
-          cp -rf download.html ./tmpci/index.html
-          sed -i "s/version/${{steps.tag_version.outputs.new_tag}}/g" ./tmpci/index.html
+          sed -i "s/{date}/${{ env.date }}/g" ./pages/index.md
+          sed -i "s/{count}/${{ env.count }}/g" ./pages/index.md
+          sed -i "s/{ver}/${{steps.tag_version.outputs.new_tag}}/g" ./pages/index.md
+          sudo npm install -g markdown-styles
+          generate-md --layout github --input ./pages --output ./outputs
 
-
-      - name: Pushes files
-        uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
-        if: |
-          contains(github.event.head_commit.message, 'skip') == false 
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      - uses: jsmrcaga/action-netlify-deploy@v1.1.0
         with:
-          source_file: 'tmpci/*'
-          destination_repo: 'pzcn/emuiicons'
-          destination_folder: ''
-          destination_branch: 'main'
-          user_email: 'pdzzzcn@gmail.com'
-          user_name: 'pzcn'
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_ID }}
+          build_directory: ./outputs
+          NETLIFY_DEPLOY_TO_PROD: true
