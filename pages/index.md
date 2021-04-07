@@ -13,41 +13,53 @@
 
 ---
 
-#### 下载地址 1
+#### Github Release 下载
 
-- [Github Release 下载地址](https://github.com/pzcn/emui-icons/releases/latest)
+- [下载地址](https://github.com/pzcn/emui-icons/releases/latest)
 
----
-
-#### 下载地址 2
-
-- [紫晶湖](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake.hwt)
-- [秋之胡杨](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AutumnPopulus.hwt)
-- [碧海金沙](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach.hwt)
-- [宇宙之眼](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae.hwt)
-- [未来之翼](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction.hwt)
-- [星夜彩绘](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/StarrySky.hwt)
-- [夏之胡杨](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/SummerPopulus.hwt)
-- [天池](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Tianchi.hwt)
+- [Github 加速下载站](https://github.iconsx.tech)
 
 ---
 
-#### 下载地址 3
+#### 备用下载地址
 
-- [紫晶湖](https://emui.netlify.app/AmethystLake.hwt)
-- [秋之胡杨](https://emui.netlify.app/AutumnPopulus.hwt)
-- [碧海金沙](https://emui.netlify.app/GoldenBeach.hwt)
-- [宇宙之眼](https://emui.netlify.app/Nebulae.hwt)
-- [未来之翼](https://emui.netlify.app/Reconstruction.hwt)
-- [星夜彩绘](https://emui.netlify.app/StarrySky.hwt)
-- [夏之胡杨](https://emui.netlify.app/SummerPopulus.hwt)
-- [天池](https://emui.netlify.app/Tianchi.hwt)
+- 紫晶湖
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake.hwt)
+
+- 秋之胡杨
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AutumnPopulus.hwt)    [下载地址2](https://emui.iconsx.tech/AutumnPopulus.hwt)    [下载地址3](https://emui.netlify.app/AutumnPopulus.hwt)
+
+- 碧海金沙
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach.hwt)
+
+- 宇宙之眼
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae.hwt)    [下载地址3](https://emui.netlify.app/Nebulae.hwt)
+
+- 未来之翼
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction.hwt)
+
+- 星夜彩绘
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/StarrySky.hwt)    [下载地址2](https://emui.iconsx.tech/StarrySky.hwt)    [下载地址3](https://emui.netlify.app/StarrySky.hwt)
+
+- 夏之胡杨
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/SummerPopulus.hwt)    [下载地址2](https://emui.iconsx.tech/SummerPopulus.hwt)    [下载地址3](https://emui.netlify.app/SummerPopulus.hwt)
+
+- 天池
+
+  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Tianchi.hwt)    [下载地址2](https://emui.iconsx.tech/Tianchi.hwt)    [下载地址3](https://emui.netlify.app/Tianchi.hwt)
 
 ---
 
 #### 参与讨论
 
-- [项目地址](https://github.com/pzcn/MIUI-Adapted-Icons-Complement-Project/)  点个star吧^_^ 
+- [项目地址](https://github.com/pzcn/emui-icons/releases/)  点个star吧^_^ 
 
 - [Telegram频道](https://t.me/miuiicons)
 
