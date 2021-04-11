@@ -5,7 +5,7 @@ cd themes
 DIR=`ls .`
 for dir in ${DIR};do
 	if [ -d ${dir} ];then
-		cd ..
+	    cd ..
 	    cd themes	
 	    mkdir ${dir}/tmp
 	    cd ..
@@ -19,13 +19,12 @@ for dir in ${DIR};do
 		cd ..
 		mv tmp/icons.zip icons
 		rm -rf tmp
-		mv icons.zip icons
 		cd ../..
 		cd style
 	    DIR1=`ls .`
 	    for dir1 in ${DIR1};do
 	    	if [ -d ${dir1} ];then	
-	    		cd..
+	    		cd ..
 	    		mkdir themes/${dir}/tmp
 	    		cd themes/${dir}/
 				zip -r ${dir}.zip * >/dev/null
