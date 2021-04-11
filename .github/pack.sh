@@ -38,7 +38,6 @@ for dir in ${DIR};do
 				cd ..
 				mv tmp/icons.zip icons
 				rm -rf tmp
-				mv icons.zip icons
 				zip -r icons.zip * >/dev/null
 				cd ../.. 
 				mv themes/${dir}/icons.zip outputs/${dir}_${dir1}.hwt
