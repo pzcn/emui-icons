@@ -5,11 +5,13 @@ cd themes
 DIR=`ls .`
 for dir in ${DIR};do
 	if [ -d ${dir} ];then
+		cd ..
+	    cd themes	
 	    mkdir ${dir}/tmp
 	    cd ..
 	    cp -rf icons/* themes/${dir}/tmp/
 		cd themes/${dir}
-		mv icons icons.zip
+		cp icons icons.zip
 		unzip -o icons.zip -d tmp/ >/dev/null
 		rm -rf icons.zip
 		cd tmp
@@ -18,10 +20,32 @@ for dir in ${DIR};do
 		mv tmp/icons.zip icons
 		rm -rf tmp
 		mv icons.zip icons
-		zip -r ${dir}.zip * >/dev/null
-		cd ../.. 
-		cp -rf themes/${dir}/${dir}.zip outputs/${dir}.hwt
-		cd themes
+		cd ../..
+		cd style
+	    DIR1=`ls .`
+	    for dir1 in ${DIR1};do
+	    	if [ -d ${dir1} ];then	
+	    		cd..
+	    		mkdir themes/${dir}/tmp
+	    		cd themes/${dir}/
+				zip -r ${dir}.zip * >/dev/null
+				cp icons icons.zip
+				unzip -o icons.zip -d tmp/ >/dev/null
+				rm -rf icons.zip
+				cd ../..
+				cp -rf style/${dir1}/* themes/${dir}/tmp/
+				cd themes/${dir}/tmp
+				zip -r icons.zip * >/dev/null
+				cd ..
+				mv tmp/icons.zip icons
+				rm -rf tmp
+				mv icons.zip icons
+				zip -r icons.zip * >/dev/null
+				cd ../.. 
+				mv themes/${dir}/icons.zip outputs/${dir}_${dir1}.hwt
+				cd themes
+			fi
+		done
 	fi
 done
 cd ..

@@ -25,36 +25,67 @@
 
 - 紫晶湖
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake_Round.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake_Round.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake_Round.hwt)
+
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake_Rectangle.hwt)
 
 - 秋之胡杨
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AutumnPopulus.hwt)    [下载地址2](https://emui.iconsx.tech/AutumnPopulus.hwt)    [下载地址3](https://emui.netlify.app/AutumnPopulus.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AutumnPopulus_Round.hwt)    [下载地址2](https://emui.iconsx.tech/AutumnPopulus_Round.hwt)    [下载地址3](https://emui.netlify.app/AutumnPopulus_Round.hwt)
+
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AutumnPopulus_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/AutumnPopulus_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/AutumnPopulus_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AutumnPopulus_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/AutumnPopulus_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/AutumnPopulus_Rectangle.hwt)
 
 - 碧海金沙
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach_Round.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach_Round.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach_Round.hwt)
+
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach_Rectangle.hwt)
 
 - 宇宙之眼
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae.hwt)    [下载地址3](https://emui.netlify.app/Nebulae.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae_Round.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Round.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Round.hwt)
+
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Rectangle.hwt)
 
 - 未来之翼
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction_Round.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction_Round.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction_Round.hwt)
+
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction_Rectangle.hwt)
 
 - 星夜彩绘
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/StarrySky.hwt)    [下载地址2](https://emui.iconsx.tech/StarrySky.hwt)    [下载地址3](https://emui.netlify.app/StarrySky.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/StarrySky_Round.hwt)    [下载地址2](https://emui.iconsx.tech/StarrySky_Round.hwt)    [下载地址3](https://emui.netlify.app/StarrySky_Round.hwt)
+
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/StarrySky_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/StarrySky_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/StarrySky_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/StarrySky_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/StarrySky_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/StarrySky_Rectangle.hwt)
 
 - 夏之胡杨
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/SummerPopulus.hwt)    [下载地址2](https://emui.iconsx.tech/SummerPopulus.hwt)    [下载地址3](https://emui.netlify.app/SummerPopulus.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/SummerPopulus_Round.hwt)    [下载地址2](https://emui.iconsx.tech/SummerPopulus_Round.hwt)    [下载地址3](https://emui.netlify.app/SummerPopulus_Round.hwt)
+
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/SummerPopulus_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/SummerPopulus_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/SummerPopulus_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/SummerPopulus_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/SummerPopulus_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/SummerPopulus_Rectangle.hwt)
 
 - 天池
 
-  [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Tianchi.hwt)    [下载地址2](https://emui.iconsx.tech/Tianchi.hwt)    [下载地址3](https://emui.netlify.app/Tianchi.hwt)
+  圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Tianchi_Round.hwt)    [下载地址2](https://emui.iconsx.tech/Tianchi_Round.hwt)    [下载地址3](https://emui.netlify.app/Tianchi_Round.hwt)
 
+  方圆形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Tianchi_Square_circle.hwt)    [下载地址2](https://emui.iconsx.tech/Tianchi_Square_circle.hwt)    [下载地址3](https://emui.netlify.app/Tianchi_Square_circle.hwt)
+
+  圆角矩形 [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Tianchi_Rectangle.hwt)    [下载地址2](https://emui.iconsx.tech/Tianchi_Rectangle.hwt)    [下载地址3](https://emui.netlify.app/Tianchi_Rectangle.hwt)
 ---
 
 #### 参与讨论
