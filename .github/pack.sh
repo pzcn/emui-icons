@@ -27,7 +27,6 @@ for dir in ${DIR};do
 	    		cd ..
 	    		mkdir themes/${dir}/tmp
 	    		cd themes/${dir}/
-				zip -r ${dir}.zip * >/dev/null
 				cp icons icons.zip
 				unzip -o icons.zip -d tmp/ >/dev/null
 				rm -rf icons.zip
