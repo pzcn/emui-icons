@@ -41,9 +41,11 @@ for dir in ${DIR};do
 				zip -r icons.zip * >/dev/null
 				cd ../.. 
 				mv themes/${dir}/icons.zip outputs/${dir}_${dir1}.hwt
-				cd themes
+				cd style
 			fi
 		done
+               cd ..
+               cd themes
 	fi
 done
 cd ..
