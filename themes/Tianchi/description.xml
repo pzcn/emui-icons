@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HwTheme>
-    <title>Tianchi Plus</title>
-    <title-cn>天池 图标补全</title-cn>
+    <title>Tianchi Plus {id}</title>
+    <title-cn>天池 图标补全 {name}</title-cn>
     <author>EMUI PedroZ</author>
     <designer>EMUI PedroZ</designer>
     <screen>FHD</screen>

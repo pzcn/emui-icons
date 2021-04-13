@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HwTheme>
-    <title>Nebulae Plus</title>
-    <title-cn>宇宙之眼 图标补全</title-cn>
+    <title>Nebulae Plus {id}</title>
+    <title-cn>宇宙之眼 图标补全 {name}</title-cn>
     <author>EMUI PedroZ</author>
     <designer>EMUI PedroZ</designer>
     <screen>FHD</screen>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HwTheme>
-    <title>Starry Sky Plus</title>
-    <title-cn>星夜彩绘 图标补全</title-cn>
+    <title>Starry Sky Plus {id}</title>
+    <title-cn>星夜彩绘 图标补全 {name}</title-cn>
     <author>EMUI PedroZ</author>
     <designer>EMUI PedroZ</designer>
     <screen>FHD</screen>

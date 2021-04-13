@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HwTheme>
-    <title>Golden Beach Plus</title>
-    <title-cn>碧海金沙 图标补全</title-cn>
+    <title>Golden Beach Plus {id}</title>
+    <title-cn>碧海金沙 图标补全 {name}</title-cn>
     <author>EMUI PedroZ</author>
     <designer>EMUI PedroZ</designer>
     <screen>FHD</screen>

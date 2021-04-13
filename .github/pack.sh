@@ -19,6 +19,7 @@ for dir in ${DIR};do
 		cd ..
 		mv tmp/icons.zip icons
 		rm -rf tmp
+		cp -rf description.xml description.back
 		cd ../..
 		cd style
 	    DIR1=`ls .`
@@ -32,7 +33,12 @@ for dir in ${DIR};do
 				rm -rf icons.zip
 				cd ../..
 				cp -rf style/${dir1}/* themes/${dir}/tmp/
-				cd themes/${dir}/tmp
+				cd themes/${dir}
+				source tmp/config.ini
+				rm -rf tmp/config.ini
+				cp -rf description.back description.xml
+				sed -i "s/{id}/${{id}}/g" ./description.xml
+				sed -i "s/{name}/${{name}}/g" ./description.xml
 				zip -r icons.zip * >/dev/null
 				cd ..
 				mv tmp/icons.zip icons

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HwTheme>
-    <title>Summer Populus Plus</title>
-    <title-cn>夏之胡杨 图标补全</title-cn>
+    <title>Summer Populus Plus {id}</title>
+    <title-cn>夏之胡杨 图标补全 {name}</title-cn>
     <author>EMUI PedroZ</author>
     <designer>EMUI PedroZ</designer>
     <screen>FHD</screen>

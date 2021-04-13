@@ -24,7 +24,7 @@ jobs:
           cd ..
 
       - name: Get Date Env
-        run: echo date=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d') >> $GITHUB_ENV
+        run: echo date=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d %H:%M') >> $GITHUB_ENV
       - name: Pack
         run: |
           chmod 755 ./.github/pack.sh
@@ -49,7 +49,7 @@ jobs:
         run: |
           sed -i "s/{date}/${{ env.date }}/g" ./pages/index.md
           sed -i "s/{count}/${{ env.count }}/g" ./pages/index.md
-          sed -i "s/{ver}/${{steps.tag_version.outputs.new_tag}}/g" ./pages/index.md
+          sed -i "s/{ver}/${{steps.tag_version.outputs.new_tag}}/g" ./pages/*.md
           sudo npm install -g markdown-styles
           generate-md --layout github --input ./pages --output ./outputs
 
