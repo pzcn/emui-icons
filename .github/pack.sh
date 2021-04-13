@@ -38,7 +38,7 @@ for dir in ${DIR};do
 				rm -rf tmp/config.ini
 				cp -rf description.back description.xml
 				sed -i "s/{id}/$id/g" ./description.xml
-				sed -i "s/{name}/${{name}}/g" ./description.xml
+				sed -i "s/{name}/$name/g" ./description.xml
 				zip -r icons.zip * >/dev/null
 				cd ..
 				mv tmp/icons.zip icons
