@@ -39,6 +39,7 @@ for dir in ${DIR};do
 				cp -rf description.back description.xml
 				sed -i "s/{id}/$id/g" ./description.xml
 				sed -i "s/{name}/$name/g" ./description.xml
+				cd tmp
 				zip -r icons.zip * >/dev/null
 				cd ..
 				mv tmp/icons.zip icons
