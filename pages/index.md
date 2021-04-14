@@ -1,7 +1,7 @@
 
 ---
 
-### EMUI完美图标补全计划
+### EMUI11完美图标补全计划
 
 ### 下载导航
 - 仅**EMUI11**可用
@@ -25,8 +25,6 @@
 
 - [紫晶湖](https://emui.iconsx.tech/AmethystLake.html)
 
-- [秋之胡杨](https://emui.iconsx.tech/AutumnPopulus.html)
-
 - [碧海金沙](https://emui.iconsx.tech/GoldenBeach.html)
 
 - [宇宙之眼](https://emui.iconsx.tech/Nebulae.html)
@@ -34,10 +32,6 @@
 - [未来之翼](https://emui.iconsx.tech/Reconstruction.html)
 
 - [星夜彩绘](https://emui.iconsx.tech/StarrySky.html)
-
-- [夏之胡杨](https://emui.iconsx.tech/SummerPopulus.html)
-
-- [天池](https://emui.iconsx.tech/AmethystLake.html)
 
 ---
 
