@@ -8,15 +8,15 @@
 
     标准
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae.hwt)    [下载地址3](https://emui.netlify.app/Nebulae.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Round.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Round.hwt)
     
     大图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae_Big.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Big.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Big.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae_Big.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Round_Big.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Round_Big.hwt)
 
     小图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae_Small.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Small.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Small.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Nebulae_Small.hwt)    [下载地址2](https://emui.iconsx.tech/Nebulae_Round_Small.hwt)    [下载地址3](https://emui.netlify.app/Nebulae_Round_Small.hwt)
 
   - 方圆形 
 
