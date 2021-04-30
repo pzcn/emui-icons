@@ -40,8 +40,8 @@
 
     大图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction_Rectangle_Big.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction_Rectangle_Big.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction_Rectangle_Big.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction_Rectangle_Big.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction_Rectangle_Big.hwt)
 
     小图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction_Rectangle_Small.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction_Rectangle_Small.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/Reconstruction_Rectangle_Small.hwt)    [下载地址2](https://emui.iconsx.tech/Reconstruction_Rectangle_Small.hwt)    [下载地址3](https://emui.netlify.app/Reconstruction_Rectangle_Small.hwt)

@@ -40,8 +40,8 @@
 
     大图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach_Round.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach_Rectangle_Big.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach_Rectangle_Big.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach_Rectangle_Big.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach_Rectangle_Big.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach_Rectangle_Big.hwt)
 
     小图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach_Round.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach_Rectangle_Small.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach_Rectangle_Small.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/GoldenBeach_Rectangle_Small.hwt)    [下载地址2](https://emui.iconsx.tech/GoldenBeach_Rectangle_Small.hwt)    [下载地址3](https://emui.netlify.app/GoldenBeach_Rectangle_Small.hwt)

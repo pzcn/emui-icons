@@ -40,8 +40,8 @@
 
     大图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake_Round.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake_Rectangle_Big.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake_Rectangle_Big.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake_Rectangle_Big.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake_Rectangle_Big.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake_Rectangle_Big.hwt)
 
     小图标
 
-    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake_Round.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake_Rectangle_Small.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake_Rectangle_Small.hwt)
+    [下载地址1](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/download/{ver}/AmethystLake_Rectangle_Small.hwt)    [下载地址2](https://emui.iconsx.tech/AmethystLake_Rectangle_Small.hwt)    [下载地址3](https://emui.netlify.app/AmethystLake_Rectangle_Small.hwt)
