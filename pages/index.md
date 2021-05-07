@@ -22,19 +22,19 @@
 
 #### 备用下载地址
 
-- [光之翼](https://emui.iconsx.tech/LightWings.html)
+- [光之翼](LightWings.html)
 
-- [星夜彩绘](https://emui.iconsx.tech/StarrySky.html)
+- [星夜彩绘](StarrySky.html)
 
-- [紫晶湖](https://emui.iconsx.tech/AmethystLake.html)
+- [紫晶湖](AmethystLake.html)
 
-- [碧海金沙](https://emui.iconsx.tech/GoldenBeach.html)
+- [碧海金沙](GoldenBeach.html)
 
-- [宇宙之眼](https://emui.iconsx.tech/Nebulae.html)
+- [宇宙之眼](Nebulae.html)
 
-- [未来之翼](https://emui.iconsx.tech/Reconstruction.html)
+- [未来之翼](Reconstruction.html)
 
-- [星夜彩绘](https://emui.iconsx.tech/StarrySky.html)
+- [星夜彩绘](StarrySky.html)
 
 ---
 
