@@ -72,6 +72,9 @@ jobs:
           mkdir pkg1
           mkdir pkg2
           mkdir pkg3
+          mkdir pkg4
+          mkdir pkg5
+          mkdir pkg6
           cp -rf ./pages/static.json ./outputpages/static.json
           cp -rf ./outputpages/* ./pkg1
           cp -rf ./outputpages/* ./pkg2
