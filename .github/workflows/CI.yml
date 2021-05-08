@@ -76,12 +76,15 @@ jobs:
           cp -rf ./outputpages/* ./pkg1
           cp -rf ./outputpages/* ./pkg2
           cp -rf ./outputpages/* ./pkg3
+          cp -rf ./outputpages/* ./pkg4
+          cp -rf ./outputpages/* ./pkg5
+          cp -rf ./outputpages/* ./pkg6
           cp -rf ./outputs/AmethystLake* ./pkg1
-          cp -rf ./outputs/GoldenBeach* ./pkg1
-          cp -rf ./outputs/LightWings* ./pkg2
-          cp -rf ./outputs/Nebulae* ./pkg2
-          cp -rf ./outputs/Reconstruction* ./pkg3
-          cp -rf ./outputs/StarrySky* ./pkg3
+          cp -rf ./outputs/GoldenBeach* ./pkg2
+          cp -rf ./outputs/LightWings* ./pkg3
+          cp -rf ./outputs/Nebulae* ./pkg4
+          cp -rf ./outputs/Reconstruction* ./pkg5
+          cp -rf ./outputs/StarrySky* ./pkg6
 
       - name: heroku1
         uses: akhileshns/heroku-deploy@v3.12.12
@@ -90,15 +93,13 @@ jobs:
           heroku_app_name: "emui"
           heroku_email: "pedrozcn@outlook.com"
           appdir: "./pkg1"
-
       - name: heroku2
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "emui1"
           heroku_email: "pedrozcn@outlook.com"
-          appdir: "./pkg1"
-
+          appdir: "./pkg2"
       - name: heroku3
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
@@ -106,6 +107,27 @@ jobs:
           heroku_app_name: "emui3"
           heroku_email: "pedrozcn@outlook.com"
           appdir: "./pkg3"
+      - name: heroku4
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "emui4"
+          heroku_email: "pedrozcn@outlook.com"
+          appdir: "./pkg4"
+      - name: heroku5
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "emui5"
+          heroku_email: "pedrozcn@outlook.com"
+          appdir: "./pkg5"
+      - name: heroku6
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY2}}
+          heroku_app_name: "emui6"
+          heroku_email: "pdzzzcn@gmail.com"
+          appdir: "./pkg6"
 
       - name: send custom message
         uses: appleboy/telegram-action@master
