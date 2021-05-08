@@ -30,14 +30,16 @@ jobs:
           ./.github/pack.sh
 
       - name: Update release
-        uses: johnwbyrd/update-release@v1.0.0
+        uses: meeDamian/github-release@v2.0.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          files: './outputs/*'
-          release: ${{ env.date1 }}
+          files: outputs/
+          name: ${{ env.date1 }}
           tag: ${{ env.tag }}
-          message: ${{ github.event.head_commit.message }}
+          body: ${{ github.event.head_commit.message }}
+          draft: false
           prerelease: false
+          allow_override: true
 
       - name: html
         run: |
