@@ -9,14 +9,13 @@
 - 若下载速度慢，请切换网络或使用代理。
 - 图标数量：{count}
 - 更新时间：{date}
-- 最新版本：{ver}
 - [更新日志](https://github.com.cnpmjs.org/pzcn/emui-icons/commits/main)
 
 ---
 
 #### Github Release 下载
 
-- [下载地址（已加速）](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/latest)
+- [下载地址](https://github.com.cnpmjs.org/pzcn/emui-icons/releases/latest)
 
 ---
 

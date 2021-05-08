@@ -20,36 +20,36 @@ jobs:
           cd icons
           echo count=$(ls -l |grep "^d"|wc -l) >> $GITHUB_ENV
           cd ..
+          echo date1=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d') >> $GITHUB_ENV
+          echo date=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d %H:%M') >> $GITHUB_ENV
+          echo tag=beta >> $GITHUB_ENV
 
-      - name: Get Date Env
-        run: echo date=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d %H:%M') >> $GITHUB_ENV
       - name: Pack
         run: |
           chmod 755 ./.github/pack.sh
           ./.github/pack.sh
 
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v5.1
+      - name: Update release
+        uses: johnwbyrd/update-release@v1
         with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
-
-      - name: Upload Release
-        uses: softprops/action-gh-release@v1
-        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           files: 'outputs/*'
-          name: ${{steps.tag_version.outputs.new_tag}}
-          tag_name: ${{steps.tag_version.outputs.new_tag}}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          release: ${{ env.date1 }}
+          tag: ${{ env.tag }}
+          message: ${{ github.event.head_commit.message }}
+          prerelease: false
 
       - name: html
         run: |
           sed -i "s/{date}/${{ env.date }}/g" ./pages/index.md
           sed -i "s/{count}/${{ env.count }}/g" ./pages/index.md
-          sed -i "s/{ver}/${{steps.tag_version.outputs.new_tag}}/g" ./pages/*.md
+          sed -i "s/{ver}/${{ env.tag }}/g" ./pages/*.md
           sudo npm install -g markdown-styles
-          generate-md --layout github --input ./pages --output ./outputs
+          generate-md --layout github --input ./pages --output ./outputpages
+
+      - name: copy pages
+        run: |
+          cp -rf ./outputpages ./outputs
 
       - name: build to netlify
         uses: jsmrcaga/action-netlify-deploy@v1.1.0
@@ -66,16 +66,56 @@ jobs:
           vercel-org-id: ${{ secrets.ORG_ID}}  #Required
           vercel-args: '--prod' #Optional
           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
-          working-directory: ./outputs
+          working-directory: ./outputpages
+
+      - name: divide packages
+        run: |
+          mkdir pkg1
+          mkdir pkg2
+          mkdir pkg3
+          cp -rf ./pages/static.json ./outputpages/static.json
+          cp -rf ./outputpages/* ./pkg1
+          cp -rf ./outputpages/* ./pkg2
+          cp -rf ./outputpages/* ./pkg3
+          cp -rf ./outputs/AmethystLake* ./pkg1
+          cp -rf ./outputs/GoldenBeach* ./pkg1
+          cp -rf ./outputs/LightWings* ./pkg2
+          cp -rf ./outputs/Nebulae* ./pkg2
+          cp -rf ./outputs/Reconstruction* ./pkg3
+          cp -rf ./outputs/StarrySky* ./pkg3
+
+      - name: heroku1
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "emui"
+          heroku_email: "pedrozcn@outlook.com"
+          appdir: "./pkg1"
+
+      - name: heroku2
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "emui1"
+          heroku_email: "pedrozcn@outlook.com"
+          appdir: "./pkg1"
+
+      - name: heroku3
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "emui3"
+          heroku_email: "pedrozcn@outlook.com"
+          appdir: "./pkg3"
 
       - name: send custom message
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.CHANNEL_ID }}
+          to: ${{ secrets.CHANNEL2_ID }}
           token: ${{ secrets.BOT_TOKEN }}
           message: |
             EMUI完美图标补全计划
-            新版本${{steps.tag_version.outputs.new_tag}}已发布
+            新版本${{ env.date1 }}已发布
             累计适配图标${{ env.count }}个
             --------------
             ${{ github.event.head_commit.message }}
