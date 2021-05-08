@@ -38,7 +38,7 @@ jobs:
           tag: ${{ env.tag }}
           body: ${{ github.event.head_commit.message }}
           allow_override: true
-          gzip: false
+          gzip: folders
 
       - name: html
         run: |
