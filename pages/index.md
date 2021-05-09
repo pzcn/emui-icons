@@ -15,11 +15,13 @@
 
 #### Github Release 下载
 
-- [下载地址](https://github.com/pzcn/emui-icons/releases/latest)    [镜像加速](https://hub.fastgit.org/pzcn/emui-icons/commits/main)
+- [下载地址](https://github.com/pzcn/emui-icons/releases/latest)    [镜像加速](https://hub.fastgit.org/pzcn/emui-icons/releases/latest)
 
 ---
 
 #### 备用下载地址
+
+- [鸿蒙-润泽](HarmonyOS.html)
 
 - [光之翼](LightWings.html)
 
