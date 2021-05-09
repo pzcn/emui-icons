@@ -23,8 +23,6 @@
 
 - [光之翼](LightWings.html)
 
-- [星夜彩绘](StarrySky.html)
-
 - [紫晶湖](AmethystLake.html)
 
 - [碧海金沙](GoldenBeach.html)
