@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HwTheme>
-    <title>HarmonyOS Plus {id}</title>
-    <title-cn>鸿蒙润泽 图标补全 {name}</title-cn>
-    <author>EMUI PedroZ</author>
-    <designer>EMUI PedroZ</designer>
+    <title>Aquamarine Plus {id}</title>
+    <title-cn>润泽 图标补全 {name}</title-cn>
+    <author>HarmonyOS PedroZ</author>
+    <designer>HarmonyOS PedroZ</designer>
     <screen>FHD</screen>
     <version>11.0.2</version>
     <font>Default</font>
