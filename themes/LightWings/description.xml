@@ -10,4 +10,5 @@
     <font-cn>默认</font-cn>
     <theme-banner-show>true</theme-banner-show>
     <wallpaper-dark>true</wallpaper-dark>
+    <briefinfo>EMUI 完美图标补全计划 更新时间：{date}</briefinfo>
 </HwTheme>
