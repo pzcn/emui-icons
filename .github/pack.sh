@@ -34,10 +34,10 @@ for dir in ${DIR};do
 				cd ../..
 				cp -rf style/${dir1}/* themes/${dir}/tmp/
 				cd themes/${dir}
-				echo date2=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d %H:%M') >> tmp/config.ini
 				source tmp/config.ini
 				rm -rf tmp/config.ini
 				cp -rf description.back description.xml
+				date2=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d %H:%M')
 				sed -i "s/{id}/$id/g" ./description.xml
 				sed -i "s/{name}/$name/g" ./description.xml
 				sed -i "s/{date}/$date2/g" ./description.xml
