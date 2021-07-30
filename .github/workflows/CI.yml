@@ -29,8 +29,8 @@ jobs:
           chmod 755 ./.github/pack.sh
           ./.github/pack.sh
 
-    - name: upload
-      run: |
+      - name: upload
+        run: |
           cd outputs
           path=$1
           files=$(ls $path)
