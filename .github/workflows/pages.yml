@@ -1,10 +1,11 @@
-name: CI
+name: Pages
 on:
   push:
     branches: [ main ]
     paths-ignore:
     - 'readme.md'
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
