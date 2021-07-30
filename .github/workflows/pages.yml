@@ -17,10 +17,10 @@ jobs:
       - name: Get Count
         run: |
           cd icons
-          echo count=$(ls -l |grep "^d"|wc -l) >> config.ini
+          echo count=$(ls -l |grep "^d"|wc -l) >> $GITHUB_ENV
           cd ..
           echo date1=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d') >> $GITHUB_ENV
-          echo date=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d %H:%M') >> config.ini
+          echo date=$(TZ=':Asia/Shanghai' date '+%Y.%m.%d %H:%M') >> $GITHUB_ENV
           echo tag=beta >> $GITHUB_ENV
 
       - name: html
