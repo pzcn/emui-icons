@@ -43,5 +43,5 @@ jobs:
           files=$(ls $path)
           for filename in $files
           do
-          curl -T $filename -u ${{secrets.coding_password}} "https://emuiicons-generic.pkg.coding.net/files/zip/$filename?version=latest"
+          curl -T AmethystLake_Rectangle.hwt -u ${{secrets.coding_password}} "https://emuiicons-generic.pkg.coding.net/files/zip/AmethystLake_Rectangle.hwt?version=latest"
           done
