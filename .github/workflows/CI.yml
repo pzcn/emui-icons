@@ -28,7 +28,14 @@ jobs:
         run: |
           chmod 755 ./.github/pack.sh
           ./.github/pack.sh
-
+      - name: Upload Release Asset
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: ${{ env.tag }}
+          prerelease: true
+          title: ${{ env.date1 }}
+          files: outputs/
       - name: upload
         run: |
           cd outputs
@@ -38,4 +45,3 @@ jobs:
           do
           curl -T $filename -u ${{secrets.coding_password}} "https://emuiicons-generic.pkg.coding.net/files/zip/$filename?version=latest"
           done
-        
