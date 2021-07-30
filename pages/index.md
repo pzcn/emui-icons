@@ -5,7 +5,8 @@
 
 ### 下载导航
 
-- 仅 **EMUI11** 和 鸿蒙OS 可用
+- 仅 **EMUI11** 和 鸿蒙OS 可用。
+- 鸿蒙OS 不推荐使用大图标，可使用较大图标。
 - 若下载速度慢，可以尝试切换下载地址、切换网络或使用代理。
 - 图标数量：{count}
 - 更新时间：{date}
@@ -130,7 +131,7 @@
 
 #### 参与讨论
 
-- [项目地址](https://github.com/pzcn/emui-icons/releases/)  点个star吧^_^ 
+- [项目地址](https://github.com/pzcn/emui-icons/releases/)  点个star吧😀
 
 - [Telegram频道](https://t.me/miuiicons)
 
